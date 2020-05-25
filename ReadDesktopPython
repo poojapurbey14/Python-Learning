@@ -1,0 +1,2 @@
+f=open("C:\\test\\pooja.txt","r")
+print(f.read())
