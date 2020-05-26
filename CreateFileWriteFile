@@ -1,0 +1,6 @@
+f = open("C:\\test\\New6.txt", "x")
+f=open("C:\\test\\New6.txt","w")
+f.write("Hi Pooja")
+f.close()
+f=open("C:\\test\\New6.txt")
+print(f.read())
