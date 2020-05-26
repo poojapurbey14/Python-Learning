@@ -1,0 +1,4 @@
+import os
+os.remove("C:\\test\\test\\test2day.txt")
+os.remove("C:\\test\\test\\test2day_wc.txt")
+os.rmdir("C:\\test\\test")
