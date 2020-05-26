@@ -1,0 +1,3 @@
+f = open("C:\\test\\test2day.txt", "r")
+for x in f:
+  print(x)
