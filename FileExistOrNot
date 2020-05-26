@@ -1,0 +1,5 @@
+import os
+if os.path.exists("C:\\test\\New.txt"):
+  os.remove("C:\\test\\New.txt")
+else:
+  print("The file does not exist")
