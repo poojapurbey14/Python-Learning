@@ -1,0 +1,2 @@
+f=open("C:\\test\\test2day.txt","r")
+print(f.readline())
