@@ -1,0 +1,8 @@
+secret_number=int(input("Secret number is "))
+magician_number=100
+while secret_number:
+    if secret_number==magician_number:
+        print("Well done, muggle! You are free now.")
+        break
+    else:
+        print("Ha ha! You're stuck in my loop!")
