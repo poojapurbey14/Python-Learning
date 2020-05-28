@@ -1,0 +1,6 @@
+n1=int(input("First number:"))
+n2=int(input("Second number:"))
+n3=int(input("Third number:"))
+n4=int(input("Fourth number"))
+n5=min(n1,n2,n3,n4)
+print("Max number is : ",n5)
