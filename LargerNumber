@@ -1,0 +1,7 @@
+n1=int(input("Enter number1: "))
+n2=int(input("Enter Second number: "))
+if n1>n2:
+    larger_number = n1
+else:
+    larger_number = n2
+print("Larger number is :", larger_number)
