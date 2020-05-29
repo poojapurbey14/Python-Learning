@@ -1,0 +1,3 @@
+def name(x):
+    print("My name is :",x)
+name("Pooja Kumari")
