@@ -1,0 +1,8 @@
+def message():
+    a=4
+    while a>0:
+        print("Enter a value: ",a)
+        a=a-1
+print("We start here.")
+message()
+print("We end here.")
