@@ -1,0 +1,6 @@
+guess=int(input("Guess a number:"))
+secret_number=777
+while guess!=secret_number:
+    print("Ha ha! You're stuck in my loop!")
+    guess=int(input("Guess another number: "))
+print("Well done, muggle! You are free now.")
