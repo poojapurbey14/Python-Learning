@@ -1,0 +1,5 @@
+n=int(input("Enter number:"))
+b=int(input("Enter base:"))
+for i in range(b):
+    y=n**i
+    print(n,"to the power of ",i,"is",y)
