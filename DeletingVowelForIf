@@ -1,0 +1,17 @@
+a_string=input("Enter a word:")
+a_string=a_string.upper()
+for letter in a_string:
+    if letter=='A':
+        continue
+    if letter=='E':
+        continue
+    if letter=='I':
+        continue
+    if letter=='O':
+        continue
+    if letter=='U':
+        continue
+
+
+    print(letter)
+
