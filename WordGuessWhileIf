@@ -1,0 +1,7 @@
+word= input("Enter something:")
+while word:
+    if word==("chupacabra"):
+     print("You've successfully left the loop.")
+     break
+    else:
+        word=input("Enter another word:")
