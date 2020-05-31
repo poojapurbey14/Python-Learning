@@ -1,0 +1,6 @@
+time=int(input("Enter time:"))
+for i in range(1,time):
+    print(i,"Mississipi")
+    while i==time-1:
+        print("Ready or not, here I come!")
+        break
