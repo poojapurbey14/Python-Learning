@@ -1,0 +1,7 @@
+pow = 1
+number=int(input("Enter base number:"))
+exp=int(input("Enter exponatial number:"))
+for exp in range(exp):
+
+    print(number,"to the power of", exp, "is", pow)
+    pow =pow*number
