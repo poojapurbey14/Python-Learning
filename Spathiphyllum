@@ -1,0 +1,7 @@
+sentence=input("Enter the word:")
+if sentence=='Spathiphyllum':
+    print("Yes - Spathiphyllum is the best plant ever!")
+elif sentence=='spathiphyllum':
+    print("No, I want a big Spathiphyllum!")
+else:
+    print("Spathiphyllum! Not ",sentence)
