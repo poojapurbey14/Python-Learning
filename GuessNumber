@@ -1,0 +1,7 @@
+number=int(input("Enter a number:"))
+magician=int(input("Enter magician number:"))
+while number!=magician:
+    print("Ha ha! You're stuck in my loop!")
+    break
+else:
+    print("Well done, muggle! You are free now.")
