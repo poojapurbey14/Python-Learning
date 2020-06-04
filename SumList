@@ -1,0 +1,5 @@
+mylist=[3,7,2,9,4]
+total=0
+for i in range(len(mylist)):
+    total=total+mylist[i]
+print(total)
