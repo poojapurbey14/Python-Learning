@@ -1,0 +1,7 @@
+def pooja():
+    a=input("Enter your first name:")
+    b=input("Enter your second name:")
+    print("Hi",a,b)
+print("Start here")
+pooja()
+print("End here")
