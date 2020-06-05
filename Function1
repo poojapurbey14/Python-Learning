@@ -1,0 +1,4 @@
+def name(p):
+    print("Hi")
+    print("My name is:",p)
+name(input("Enter youe name:"))
