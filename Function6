@@ -1,0 +1,10 @@
+def message():
+    print("Enter a value: ",end="")
+
+message()
+a = int(input())
+message()
+b = int(input())
+message()
+c = int(input())
+print("Sum is:","a+b+c=",a+b+c)
