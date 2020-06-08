@@ -1,0 +1,6 @@
+def isTriange(l,b,h):
+    return l+b>h and l+h>b and h+b>l
+l=int(input("Enter length:"))
+b=int(input("Enter breadth:"))
+h=int(input("Enter height:"))
+print(isTriange(l,b,h))
