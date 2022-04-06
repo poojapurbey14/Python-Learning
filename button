@@ -1,0 +1,10 @@
+from tkinter import messagebox
+import tkinter
+window=tkinter.Tk()
+window.geometry('400x300')
+def clicked():
+    messagebox.showinfo("good.....")
+
+bt=tkinter.Button(window,text="Click",bg="green",fg="black",command=clicked)
+bt.grid(column=1,row=1)
+window.mainloop()
